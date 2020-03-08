@@ -3878,7 +3878,10 @@ input, select, textarea {
 
 	.blog {
 		width: 100vw;
+		display: flex;
 		text-align: center;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.blog .header {
@@ -3889,8 +3892,35 @@ input, select, textarea {
 		margin-top: 5rem;	
 	}
 
+	.blog .centered {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
 	.blog .footer {
+		width: 100%;
 		margin-top: 15rem;	
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.blog ul.items {
+		list-style: none;
+		padding-left: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.blog .content {
+		width: 80%;
+	}
+
+	.blog .copyright {
+		color: rgba(0, 0, 0, 0.25);
+		font-size: 1rem;
 	}
 
 .bottom-margin {
